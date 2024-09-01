@@ -24,8 +24,8 @@ body {
 }
 .hero-img {
   position: absolute;
-  top: -14%;
-  right: 8%;
+  top: -16%;
+  right: 9%;
 }
 .pre-title {
   line-height: 1.86;
@@ -63,6 +63,9 @@ body {
   font-family: "League Spartan";
   border: none;
   cursor: pointer;
+}
+.btn:hover {
+  background-color: #272727;
 }
 .chip {
   width: 143px;
@@ -114,8 +117,11 @@ body {
   transform: translate(-250px, -250px);
 }
 .item-title {
-  margin-top: 67px;
+  margin-top: 68px;
+  font-weight: 400;
+  font-size: 32px;
   text-align: center;
+  color: #000;
 }
 .item-text {
   margin-top: 17px;
@@ -123,7 +129,7 @@ body {
 }
 
 .item {
-  margin-bottom: 85px;
+  margin-bottom: 80px;
 }
 .item:nth-child(2) {
   margin-bottom: 0px;
